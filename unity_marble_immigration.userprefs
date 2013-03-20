@@ -1,0 +1,42 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\TiltControllerBall.cs">
+    <Files>
+      <File FileName="Assets\scripts\TiltController.cs" Line="10" Column="32" />
+      <File FileName="Assets\scripts\BallCatcher.cs" Line="12" Column="3" />
+      <File FileName="Assets\shaders\SimpleTriplanar.shader" Line="1" Column="1" />
+      <File FileName="Assets\scripts\WorldGen.cs" Line="124" Column="37" />
+      <File FileName="Assets\scripts\CameraScroll.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\TiltControllerBall.cs" Line="42" Column="46" />
+      <File FileName="Assets\scripts\FocusFollow.cs" Line="16" Column="3" />
+      <File FileName="Assets\scripts\SpherePhysics.cs" Line="4" Column="114" />
+      <File FileName="Assets\scripts\CityDataDB.cs" Line="104" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="TiltControllerBall.cs" selected="True" />
+              </Node>
+              <Node name="shaders" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>xPoses</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

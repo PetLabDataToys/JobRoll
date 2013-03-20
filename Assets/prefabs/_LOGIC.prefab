@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: _LOGIC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2edcd8ae1c4ff443b37f040d4ac18d5, type: 3}
+  m_Name: 
+  woodPrefabs:
+  - {fileID: 400000, guid: cd33c466d3f1f5f4eb322ff92655127e, type: 2}
+  - {fileID: 400000, guid: 781462587f23a2f40993abb85aaad068, type: 2}
+  - {fileID: 400000, guid: c16049a5b7ba27c4ab6a4891c4a4add8, type: 2}
+  - {fileID: 400000, guid: 63c3d64386e32544397924147e9779e7, type: 2}
+  pool: []
+  cachedHeights: []
+  sunlight: {fileID: 0}
+  varGridSizeX: 50
+  varGridSizeY: 50
+  varHeightScale: 10
+  varFlatnessA: 20
+  varFlatnessDistro: .660000026
+  varFlatnessB: 6
+  varCliffSize: 20
+  varCliffDistro: .5
+  guiSkin: {fileID: 11400000, guid: a499c08c308a7c84aaf23045cab0d6c5, type: 2}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c95d952ab16a443b13e4918f685566, type: 3}
+  m_Name: 
+  cities:
+  - name: Houston, Texas
+    type: 2
+    data:
+    - year: 0
+      totalPop: 4113032
+      immShare: .205300003
+      immShareEmploy: .230700001
+      employRatio: 0
+    - year: 1
+      totalPop: 4728670
+      immShare: .229800001
+      immShareEmploy: .293199986
+      employRatio: 0
+    - year: 2
+      totalPop: 5308825
+      immShare: .237299994
+      immShareEmploy: .308099985
+      employRatio: 0
+    seed: 0
+  - name: Detroit, Michigan
+    type: 0
+    data:
+    - year: 0
+      totalPop: 4368597
+      immShare: .0754999965
+      immShareEmploy: .0795999989
+      employRatio: 0
+    - year: 1
+      totalPop: 4390862
+      immShare: .0873999968
+      immShareEmploy: .101099998
+      employRatio: 0
+    - year: 2
+      totalPop: 4214097
+      immShare: .0876000002
+      immShareEmploy: .102700002
+      employRatio: 0
+    seed: 0
+  - name: New York, New York
+    type: 2
+    data:
+    - year: 0
+      totalPop: 9088458
+      immShare: .343100011
+      immShareEmploy: .405999988
+      employRatio: 0
+    - year: 1
+      totalPop: 9291854
+      immShare: .347600013
+      immShareEmploy: .441500008
+      employRatio: 0
+    - year: 2
+      totalPop: 9367054
+      immShare: .35620001
+      immShareEmploy: .443199992
+      employRatio: 0
+    seed: 0
+  - name: Birmingham, Alabama
+    type: 1
+    data:
+    - year: 0
+      totalPop: 785249
+      immShare: .0237000007
+      immShareEmploy: .0294000003
+      employRatio: 0
+    - year: 1
+      totalPop: 810724
+      immShare: .0351000018
+      immShareEmploy: .0425999984
+      employRatio: 0
+    - year: 2
+      totalPop: 837836
+      immShare: .0474000014
+      immShareEmploy: .0662999973
+      employRatio: 0
+    seed: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
